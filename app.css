@@ -1,0 +1,39 @@
+* {
+  background-color: gray;
+  background-image: linear-gradient(-90deg, rgb(141, 9, 112), gray);
+}
+.container {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 36px;
+  position: relative;
+  top: 20px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 18px;
+  position: relative;
+  bottom: 20px;
+}
+
+.images {
+  text-align: center;
+  position: relative;
+  bottom: 20px;
+}
+
+h3 {
+  text-align: center;
+  position: relative;
+  top: 60px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  text-align: center;
+}
