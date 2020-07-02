@@ -1,46 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" type="text/css" href="app.css" />
 
-    <title>Portfolio</title>
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" type="text/css" href="app.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+
+  <title>Portfolio</title>
+</head>
 
 
-    <div class="container">
-      <h1>
-        Amber Phillips
-      </h1>
-      <h2>
-       Web Developer &#183; Creative &#183; Product Owner
-
-      <!-- <div id="grad1"></div> -->
-      </h2>
-    <!-- </div>
-    <div class= "images">
-        <a href="mailto:amber.ranae2@gmail.com"><img src="images/iconfinder_gmail_1220340.png" width="30" height="35"
-                title="email" alt="gmail"></a>
-        <a href="https://github.com/amberanae2"><img src="images/iconfinder_github-social-media_765246.png" width="30"
-                height="35" title="github" alt="github"></a>
-        <a href="https://www.linkedin.com/in/amberr254/"><img src="images/iconfinder_linkedin_834713.png" width="30" height="35"
-                title="linkedin" alt="social"></a>
-        </a>
+<body>
+  <header>
+    <!-- <div class="logo">
+      <img src="" alt="">
     </div> -->
 
-    <div class = "projects">
-        <h3>
-            My Projects
-        </h3>
-    </div>
+    <button class="nav-toggle" aria-label="toggle navigation">
+      <span class="hamburger"></span>
+    </button>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav-item"><a href="#" class="nav__list">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav__list">About</a></li>
+        <li class="nav-item"><a href="#" class="nav__list">Projects</a></li>
+      </ul>
+    </nav>
 
-     <div class = "footer">
-         <p1>Contact Me: 972-904-9845
-       <img src="images/iconfinder_phone-outline_353432.png" alt= "phone" width="30" height="35">
-      </p1>
-</div>
-  </body>
+
+    </div>
+  </header>
+
+  <!--- Intro section-->
+
+  <section class="intro" id="Home">
+    <h1 class="section-title">
+      <strong>Amber Phillips</strong>
+    </h1>
+    <p class="section-subtitle">Web Developer</p>
+  </section>
+
+  <!--About Me Section-->
+
+  <section class="About" id="about">
+    <h2 class="About">About Me</h2>
+    <p>add some stuff here</p>
+  </section>
+
+  <!---projects-->
+
+  <section class="Projects" id="Projects">
+    <h2 class="section-title">Projects</h2>
+    <p class="section-subtitle"></p>
+
+    <div class="portfolio">
+      <a href="#" class="portfolio-item">
+        <img src="portfolio.jpg" alt="" class="portfolio-img">
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <a href="mailto:amber.ranae2@gmail.com" class="footer-link">
+      amber.ranae2@gmail.com
+    </a>
+
+    <ul class="social-list">
+      <li class="social-list item"><a class="social-link" href="https://www.linkedin.com/in/amberr254/"></a>linkedin
+      </li>
+      <li class="social-list item"><a class="social-link" href="https://github.com/amberanae2"></a>GitHub</li>
+
+
+
+
+
+    </ul>
+
+  </footer>
+</body>
+
 </html>
