@@ -335,11 +335,11 @@ header {
  }
 
  .footer {
-   background:#111;
-   color: var(--clr-light);
+   background: var(--clr-light);
+   color: var(--clr-dark);
    text-align: center;
-   padding: 2.5em 0;
-   font-size: var(--fw-h3);
+   padding: .5em 0;
+   font-size: 15px;
  }
 
  .footer-link {
@@ -369,3 +369,5 @@ header {
  .social-link {
    padding: .5em;
  }
+
+ 
